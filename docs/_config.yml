@@ -33,7 +33,7 @@ plugins:
 # Github Pages Config
 domain: bnorquist.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://bnorquist.github.io
-baseurl: /docs/
+baseurl: ""
 
 # Exclude from processing.
 # The following items will not be processed, by default.

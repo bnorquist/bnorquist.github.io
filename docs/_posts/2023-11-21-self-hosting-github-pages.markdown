@@ -28,3 +28,12 @@ within 1 hr.
 
 - [Jekyll quickstart](https://jekyllrb.com/docs/) 
 - [Github Pages Guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+
+One issue I ran into that had a quick fix: 
+
+Upon running 
+`bundle exec jekyll serve --livereload` I got the error: <br>
+```bundler: failed to load command: jekyll (/Users/USERNAME/.gem/ruby/3.1.3/bin/jekyll)``` <br>
+This is fixed by running
+`bundle add webrick`
+before trying to build the site again. 

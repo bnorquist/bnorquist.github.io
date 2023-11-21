@@ -22,7 +22,6 @@ title: whatnow.cc
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   blog about self hosting, automation and 100% legal filesharing
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  bnorquist
 
@@ -32,6 +31,8 @@ plugins:
   - jekyll-feed
 
 # Github Pages Config
+domain: bnorquist.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://bnorquist.github.io
 baseurl: /docs
 
 # Exclude from processing.

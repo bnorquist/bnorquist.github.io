@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Self Hosting on Github Pages with Jekyll"
+title:  "Hosting a blog on Github Pages with Jekyll"
 date:   2023-11-21 15:27:41 -0600
 categories: jekyll
 ---
@@ -36,4 +36,4 @@ Upon running
 ```bundler: failed to load command: jekyll (/Users/USERNAME/.gem/ruby/3.1.3/bin/jekyll)``` <br>
 This is fixed by running
 `bundle add webrick`
-before trying to build the site again. 
+before trying to build the site again.

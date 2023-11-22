@@ -26,9 +26,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username:  bnorquist
 
 # Build settings
-theme: minima
+#theme: minima
+minima:
+  skin: dark
+
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Github Pages Config
 domain: bnorquist.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com

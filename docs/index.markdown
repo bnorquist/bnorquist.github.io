@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+![My image Name](/assets/img/whatcd.png)
